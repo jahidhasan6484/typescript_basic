@@ -34,8 +34,8 @@ const new_smartphone_list: string[] = ["Pixel 7a", "Samsung galaxy note 23"];
 
 my_smartphone_list.push(...new_smartphone_list); // Spread operator
 
-const greet_friends = (...friends: string[]): void => {
+const greetFriends = (...friends: string[]): void => {
   friends.forEach((friend) => console.log(`Hi ${friend}`));
 };
 
-greet_friends("Nasim", "Mosi", "Hasi");
+greetFriends("Nasim", "Mosi", "Hasi");
